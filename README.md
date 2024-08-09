@@ -1,3 +1,5 @@
+This Python script implements a movie recommendation system using a content-based filtering approach. The system leverages the TF-IDF (Term Frequency-Inverse Document Frequency) vectorization method to convert textual features of movies into numerical representations. It then computes cosine similarity scores between movies to generate recommendations based on content similarity.
+
 from google.colab import drive
 drive.mount('/content/drive')
 import pandas as pd
